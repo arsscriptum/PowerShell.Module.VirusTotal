@@ -20,7 +20,7 @@ Function Request-VirusTotalFileScan {
     )
 
      try{
-        $ErrorOccured = $False
+        $ErrorOccured =     $False
 
   
         [String]$endpointUri = "https://www.virustotal.com/api/v3/files"
